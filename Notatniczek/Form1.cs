@@ -17,15 +17,5 @@ namespace Notatniczek
             InitializeComponent();
         }
 
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-            int i = 1;
-            //string text;
-            while (i <= 5)
-            {
-                richTextBox1.Text += i.ToString();
-                i++;
-            }
-        }
     }
 }
